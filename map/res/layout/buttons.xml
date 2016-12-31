@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ericsson="http://schemas.android.com/apk/res/com.ericsson.android.indoormaps">
+    <Button android:id="@+id/buttonTest" android:text="Test"
+    	android:layout_height="wrap_content" android:layout_width="wrap_content"
+    	android:layout_margin="5dp" />
+    <!-- Route buttons -->
+    <ImageButton android:id="@+id/buttonPrev"
+    	android:layout_height="wrap_content" android:layout_width="wrap_content"
+    	android:src="@android:drawable/ic_media_previous"
+    	android:layout_marginTop="5dp" android:layout_toRightOf="@id/buttonTest" />
+    <ImageButton android:id="@+id/buttonRoute" android:text="Route"
+    	android:layout_height="wrap_content" android:layout_width="wrap_content"
+    	android:src="@android:drawable/ic_media_play"
+    	android:layout_marginTop="5dp" android:layout_toRightOf="@id/buttonPrev" />
+    <ImageButton android:id="@+id/buttonNext"
+    	android:layout_height="wrap_content" android:layout_width="wrap_content"
+    	android:src="@android:drawable/ic_media_next"
+    	android:layout_marginTop="5dp" android:layout_toRightOf="@id/buttonRoute" />
+    <Button android:id="@+id/buttonLocation" android:text="Request Location"
+    	android:layout_height="wrap_content" android:layout_width="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:layout_margin="5dp" />
+</merge>
+
